@@ -1,0 +1,20 @@
+// Range Slider
+.rc-slider-handle {
+    width: 20px;
+    height: 20px;
+    border: solid 2px grey;
+    margin-top: -8px;
+  }
+.rc-slider-step{
+    background: #487deb;
+}
+
+.rc-slider{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging, .rc-slider-handle:hover {
+    border-color: #487deb;
+    box-shadow: 0 0 0 5px #487deb;
+}

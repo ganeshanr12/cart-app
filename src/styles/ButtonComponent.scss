@@ -1,0 +1,49 @@
+.btn-main {
+    color: #fff;
+    background: #487deb;
+    border: none;
+    border-radius: 20pc;
+    min-width: 80px;
+    outline: none;
+    padding: 5px 30px;
+    &:hover, &:active {
+        background: #0a56ee;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.btn-add-cart {
+    background: #f6d041;
+    color: #000;
+    border-radius: 30px;
+    border-color: #000;
+    font-weight: bold;
+    border-color: #f6d041 !important;
+    &:hover, &:active {       
+        color: #000 !important;
+        background-color: #ecbb0b !important;
+        border-color: #ecbb0b !important;     
+    }
+}
+
+.btn-remove {
+    color: #212529;
+    font-weight: bold;
+}
+
+.btn-circle {
+    background: white;
+    color: grey;
+    border-radius: 50%;
+    border: 1px solid grey;
+    width: 30px !important;
+    height: 30px !important;
+    display: inline-block;
+    padding: 0px;
+    min-width: 0px;
+    &:focus {      
+      outline: 0px;
+    }
+  }
